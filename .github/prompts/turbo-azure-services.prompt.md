@@ -75,6 +75,15 @@ Considere **provável** quando a feature sugerir indiretamente essa necessidade.
 
 **Use sempre a ferramenta `vscode_askQuestions` para fazer perguntas ao usuário.** Nunca escreva as perguntas como texto livre na resposta.
 
+Antes de fazer perguntas, verifique se o arquivo `.github/feature-<nome>.md` contém a seção **"Configuração do Projeto"**. Se sim, leia os valores de lá — especialmente:
+
+- **Nome da solution** (= nome do projeto para nomear recursos Azure)
+- **Região Azure**
+- **Ambiente** (desenvolvimento ou produção)
+- **Serviços de integração existentes** (indica infraestrutura já provisionada)
+
+**Omita qualquer pergunta cuja resposta já esteja na seção "Configuração do Projeto".** Pergunte apenas o que ainda falta.
+
 Nesta etapa, colete de uma vez as informações necessárias para **ambos os artefatos** (mapa de tecnologias + guia de criação). Faça **no máximo 5 a 7 perguntas por rodada**, priorizando as que impactam a escolha e a configuração dos serviços.
 
 ### Perguntas sobre infraestrutura (mapa de tecnologias)

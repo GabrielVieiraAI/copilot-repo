@@ -1,7 +1,8 @@
 ---
 description: "Gerar as principais objeções de compra de um produto/mentoria, com quebra de objeção e exemplo de copy — útil para preparar páginas de vendas, anúncios e scripts de fechamento."
 agent: agent
-tools: [vscode, execute, read, agent, edit, search, web, browser, todo, createFile]
+tools:
+  [vscode, execute, read, agent, edit, search, web, browser, todo, createFile]
 ---
 
 # Objeções de Venda
